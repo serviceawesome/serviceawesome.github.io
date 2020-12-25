@@ -1,0 +1,124 @@
+.schedule_box {
+  background: #b2101e;
+  max-width: 310px;
+  padding: 0px 27px;
+  position: relative;
+}
+
+.schedule_box:before {
+  content: "";
+  position: absolute;
+  left: -260px;
+  bottom: 0px;
+  width: 303px;
+  height: 508px;
+  z-index: -1;
+}
+
+.schedule_box img {
+  margin: auto;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.schedule_box h4 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 40px;
+  margin-bottom: 3px;
+}
+
+.schedule_box h5 {
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 18px;
+}
+
+.schedule_box .contact_us_form .form-group {
+  margin-bottom: 8px;
+}
+
+.schedule_box .contact_us_form .form-group input {
+  border: 1px solid #ca525e;
+  background: #9e101e;
+  height: 40px;
+  padding: 0px 20px;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group input.placeholder {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group input:-moz-placeholder {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group input::-moz-placeholder {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group input::-webkit-input-placeholder {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group textarea {
+  border: 1px solid #ca525e;
+  background: #9e101e;
+  height: 76px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group textarea.placeholder {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group textarea:-moz-placeholder {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group textarea::-moz-placeholder {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group textarea::-webkit-input-placeholder {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.schedule_box .contact_us_form .form-group .submit_btn {
+  width: 100%;
+  line-height: 46px;
+  background-image: -moz-linear-gradient(90deg, #fbb101 0%, #f7cf20 100%);
+  background-image: -webkit-linear-gradient(90deg, #fbb101 0%, #f7cf20 100%);
+  background-image: -ms-linear-gradient(90deg, #fbb101 0%, #f7cf20 100%);
+  margin-top: 8px;
+  margin-bottom: 25px;
+  color: #242424;
+}
